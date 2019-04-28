@@ -1,0 +1,64 @@
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+#main{
+background-image: linear-gradient(to top right, #4671E1, #ff1a75);;
+margin-top: 0px;
+width: 100%;
+float: left;
+}
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#form{
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 500px;
+    justify-content: center;
+   padding-left: 40px;
+    display: block;
+    border: 400px border-style white;
+    border-radius: 10px;
+}
+
+input[type=text], select {
+  width: 420px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: relative;
+  margin: auto;
+}
+
+input[type=submit] {
+  width: 420px;
+  background-image: linear-gradient(to right, #4671E1, #ff1a75);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+textarea{
+    width: 420px;
+}
+
+input[type=submit]:hover {
+  background-image: linear-gradient(to right,#ff1a75, #4671E1);
+}
